@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-31 11:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:34
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:58
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:82
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:101
+msgid "Share on"
+msgstr ""
+
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:91
+msgid "Check this link: "
+msgstr ""
+
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:92
+msgid "Sharing this page: "
+msgstr ""
+
+#: src/Form/InstanceSettings.php:28
+msgid "Block heading"
+msgstr ""
+
+#: src/Form/InstanceSettings.php:29
+msgid "If empty, the heading will not be displayed"
+msgstr ""
+
+#: src/Form/InstanceSettings.php:36 src/Form/ConfigForm.php:44
+msgid "Enable sharing"
+msgstr ""
+
+#: src/Form/InstanceSettings.php:37 src/Form/ConfigForm.php:45
+msgid "Check box to display a button for sharing on the social network"
+msgstr ""
+
+#: src/Form/InstanceSettings.php:41 src/Form/ConfigForm.php:49
+msgid "Facebook"
+msgstr ""
+
+#: src/Form/InstanceSettings.php:45 src/Form/ConfigForm.php:53
+msgid "Twitter"
+msgstr ""
+
+#: src/Form/InstanceSettings.php:49 src/Form/ConfigForm.php:57
+msgid "LinkedIn"
+msgstr ""
+
+#: src/Form/InstanceSettings.php:69 src/Form/ConfigForm.php:77
+msgid "Please select at least one social network."
+msgstr ""
+
+#: src/Form/ConfigForm.php:28
+msgid "Default block heading"
+msgstr ""
+
+#: src/Form/ConfigForm.php:29
+msgid "This text will be used as the default for the block heading option."
+msgstr ""
+
+#: src/Form/ConfigForm.php:36
+msgid "Twitter handle for sharing"
+msgstr ""
+
+#: src/Form/ConfigForm.php:37
+msgid "Enter optional Twitter handle"
+msgstr ""
+
+#: src/Site/BlockLayout/ShareMeBaby.php:54
+msgid "Social share buttons"
+msgstr ""
