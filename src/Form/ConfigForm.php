@@ -33,8 +33,8 @@ class ConfigForm extends Form implements InputFilterProviderInterface
             'name' => 'twitter_handle',
             'type' => Element\Text::class,
             'options' => [
-                'label' => 'Twitter handle for sharing',    // @translate
-                'info'  => 'Enter optional Twitter handle', // @translate
+                'label' => 'X (Twitter) handle for sharing',    // @translate
+                'info'  => 'Enter optional X (Twitter) handle', // @translate
             ],
         ]);
         $this->add([
@@ -50,7 +50,7 @@ class ConfigForm extends Form implements InputFilterProviderInterface
                     ],
                     [
                         'value' => 'enable_twitter',
-                        'label' => 'Twitter',   // @translate
+                        'label' => 'X (Twitter)',   // @translate
                     ],
                     [
                         'value' => 'enable_linkedin',

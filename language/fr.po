@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-31 11:19+0100\n"
-"PO-Revision-Date: 2022-10-31 11:55+0100\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2024-02-02 17:50+0100\n"
+"Last-Translator: Christophe Perrin <christophe@kaeness.fr>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.2\n"
+"X-Generator: Poedit 2.4.3\n"
 
 #: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:34
 #: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:58
@@ -54,8 +54,8 @@ msgid "Facebook"
 msgstr "Facebook"
 
 #: src/Form/InstanceSettings.php:45 src/Form/ConfigForm.php:53
-msgid "Twitter"
-msgstr "Twitter"
+msgid "X (Twitter)"
+msgstr "X (Twitter)"
 
 #: src/Form/InstanceSettings.php:49 src/Form/ConfigForm.php:57
 msgid "LinkedIn"
@@ -74,12 +74,12 @@ msgid "This text will be used as the default for the block heading option."
 msgstr "Ce texte sera utilisé par défaut comme titre du bloc."
 
 #: src/Form/ConfigForm.php:36
-msgid "Twitter handle for sharing"
-msgstr "Pseudo Twitter pour le partage"
+msgid "X (Twitter) handle for sharing"
+msgstr "Pseudo X (Twitter) pour le partage"
 
 #: src/Form/ConfigForm.php:37
-msgid "Enter optional Twitter handle"
-msgstr "Saisir le pseudo Twitter optionnel"
+msgid "Enter optional X (Twitter) handle"
+msgstr "Saisir le pseudo X (Twitter) optionnel"
 
 #: src/Site/BlockLayout/ShareMeBaby.php:54
 msgid "Social share buttons"

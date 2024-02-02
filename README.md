@@ -26,8 +26,8 @@ Usage
 
 In the module configuration, you can:
 * enter the default title of the block
-* enter your Twitter username
-* choose the sharing buttons to display: Facebook, Twitter, LinkedIn and send by e-mail
+* enter your X (Twitter) username
+* choose the sharing buttons to display: Facebook, X (Twitter), LinkedIn and send by e-mail
 
 ### Display
 

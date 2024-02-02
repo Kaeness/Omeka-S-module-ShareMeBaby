@@ -40,7 +40,7 @@ class InstanceSettings extends Form
                     ],
                     [
                         'value' => 'enable_twitter',
-                        'label' => 'Twitter',   // @translate
+                        'label' => 'X (Twitter)',   // @translate
                     ],
                     [
                         'value' => 'enable_linkedin',

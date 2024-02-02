@@ -53,7 +53,7 @@ msgid "Facebook"
 msgstr ""
 
 #: src/Form/InstanceSettings.php:45 src/Form/ConfigForm.php:53
-msgid "Twitter"
+msgid "X (Twitter)"
 msgstr ""
 
 #: src/Form/InstanceSettings.php:49 src/Form/ConfigForm.php:57
@@ -73,11 +73,11 @@ msgid "This text will be used as the default for the block heading option."
 msgstr ""
 
 #: src/Form/ConfigForm.php:36
-msgid "Twitter handle for sharing"
+msgid "X (Twitter) handle for sharing"
 msgstr ""
 
 #: src/Form/ConfigForm.php:37
-msgid "Enter optional Twitter handle"
+msgid "Enter optional X (Twitter) handle"
 msgstr ""
 
 #: src/Site/BlockLayout/ShareMeBaby.php:54
