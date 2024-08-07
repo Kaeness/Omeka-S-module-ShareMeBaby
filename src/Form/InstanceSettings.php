@@ -47,6 +47,10 @@ class InstanceSettings extends Form
                         'label' => 'LinkedIn',  // @translate
                     ],
                     [
+                        'value' => 'enable_whatsapp',
+                        'label' => 'WhatsApp',  // @translate
+                    ],
+                    [
                         'value' => 'enable_email',
                         'label' => 'Email',     // @translate
                     ],

@@ -57,6 +57,10 @@ class ConfigForm extends Form implements InputFilterProviderInterface
                         'label' => 'LinkedIn',  // @translate
                     ],
                     [
+                        'value' => 'enable_whatsapp',
+                        'label' => 'WhatsApp',  // @translate
+                    ],
+                    [
                         'value' => 'enable_email',
                         'label' => 'Email',     // @translate
                     ],
