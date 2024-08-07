@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-31 11:19+0100\n"
-"PO-Revision-Date: 2024-08-07 15:34+0200\n"
+"POT-Creation-Date: 2024-08-07 15:47+0200\n"
+"PO-Revision-Date: 2024-08-07 15:58+0200\n"
 "Last-Translator: Christophe Perrin <christophe@kaeness.fr>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -51,22 +51,27 @@ msgid "Check box to display a button for sharing on the social network"
 msgstr "Cocher la case pour afficher un bouton de partage pour le réseau social"
 
 #: src/Form/InstanceSettings.php:41 src/Form/ConfigForm.php:49
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:35
 msgid "Facebook"
 msgstr "Facebook"
 
 #: src/Form/InstanceSettings.php:45 src/Form/ConfigForm.php:53
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:59
 msgid "X (Twitter)"
 msgstr "X (Twitter)"
 
 #: src/Form/InstanceSettings.php:49 src/Form/ConfigForm.php:57
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:83
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
 #: src/Form/InstanceSettings.php:51 src/Form/ConfigForm.php:61
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:98
 msgid "WhatsApp"
 msgstr "WhatsApp"
 
 #: src/Form/InstanceSettings.php:55 src/Form/ConfigForm.php:65
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:117
 msgid "Email"
 msgstr "Courriel"
 
