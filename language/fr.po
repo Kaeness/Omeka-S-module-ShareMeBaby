@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-31 11:19+0100\n"
-"PO-Revision-Date: 2024-02-02 17:50+0100\n"
+"PO-Revision-Date: 2024-08-07 15:34+0200\n"
 "Last-Translator: Christophe Perrin <christophe@kaeness.fr>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -21,15 +21,16 @@ msgstr ""
 #: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:34
 #: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:58
 #: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:82
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:101
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:97
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:116
 msgid "Share on"
 msgstr "Partager sur"
 
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:91
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:106
 msgid "Check this link: "
 msgstr "Regarde cette page : "
 
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:92
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:107
 msgid "Sharing this page: "
 msgstr "Partager cette page "
 
@@ -61,9 +62,13 @@ msgstr "X (Twitter)"
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: src/Form/InstanceSettings.php:69 src/Form/ConfigForm.php:77
-msgid "Please select at least one social network."
-msgstr "Veuillez sélectionner au moins un réseau social."
+#: src/Form/InstanceSettings.php:51 src/Form/ConfigForm.php:61
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: src/Form/InstanceSettings.php:55 src/Form/ConfigForm.php:65
+msgid "Email"
+msgstr "Courriel"
 
 #: src/Form/ConfigForm.php:28
 msgid "Default block heading"
@@ -80,6 +85,10 @@ msgstr "Pseudo X (Twitter) pour le partage"
 #: src/Form/ConfigForm.php:37
 msgid "Enter optional X (Twitter) handle"
 msgstr "Saisir le pseudo X (Twitter) optionnel"
+
+#: src/Form/ConfigForm.php:81
+msgid "Please select at least one social network."
+msgstr "Veuillez sélectionner au moins un réseau social."
 
 #: src/Site/BlockLayout/ShareMeBaby.php:54
 msgid "Social share buttons"
