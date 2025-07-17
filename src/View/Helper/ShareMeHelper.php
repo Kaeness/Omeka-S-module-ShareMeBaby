@@ -33,14 +33,11 @@ class ShareMeHelper extends AbstractHelper
         return $view->partial('social-sharing-block/common/block-layouts/social-sharing-block', [
             'block_heading'  => $configuration['block_heading'],
             'networks'       => $configuration['networks'],
-            'this_url'       => $view->serverUrl() . $_SERVER['REQUEST_URI'],
+            'this_url'       => $view->serverUrl(true),
             'title'          => $view->headTitle()->renderTitle(),
             'twitter_handle' => $configuration['twitter_handle'],
         ] );
 
-        $html = '<h2>' . $block_heading . '</h2>';
-
-        return $html;
     }
 }
 

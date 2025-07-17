@@ -79,7 +79,7 @@ class ShareMeBaby extends AbstractBlockLayout
 
     public function render(PhpRenderer $view, SitePageBlockRepresentation $block)
     {
-        $url = $view->serverUrl() . $_SERVER['REQUEST_URI'];
+        $url = $view->serverUrl(true);
 
         // Twitter handle cannot be modified at the block level; use module settings
         $settings      = $block->getServiceLocator()->get('Omeka\Settings');
