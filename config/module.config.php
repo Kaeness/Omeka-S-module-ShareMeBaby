@@ -30,6 +30,13 @@ return [
             'ShareMeBaby' => Service\BlockLayout\ShareMeBabyFactory::class,
         ],
     ],
+/*
+    'resource_page_block_layouts' => [
+        'invokables' => [
+            'ShareMeBaby' => Site\ResourcePageBlockLayout\ShareMeBaby::class,
+        ],
+    ],
+*/
     'form_elements' => [
         'invokables' => [
             Form\Form::class => Form\InstanceSettings::class,

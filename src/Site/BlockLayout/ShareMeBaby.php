@@ -84,13 +84,14 @@ class ShareMeBaby extends AbstractBlockLayout
         // Twitter handle cannot be modified at the block level; use module settings
         $settings      = $block->getServiceLocator()->get('Omeka\Settings');
         $configuration = $settings->get('share_me_baby_configuration', array());
+        $twitter_handle = $configuration['twitter_handle'] ?? '';
 
         return $view->partial('social-sharing-block/common/block-layouts/social-sharing-block', [
             'title'          => $block->page()->title(),
-            'block_heading'  => $block->dataValue('block_heading'),
+            'block_heading'  => $block->dataValue('block_heading', ''),
             'networks'       => $block->dataValue('networks', array()),
             'this_url'       => $url,
-            'twitter_handle' => $configuration['twitter_handle'],
+            'twitter_handle' => $twitter_handle,
         ] );
     }
 }

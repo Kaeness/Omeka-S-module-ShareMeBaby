@@ -27,7 +27,7 @@ Usage
 In the module configuration, you can:
 * enter the default title of the block
 * enter your X (Twitter) username
-* choose the sharing buttons to display: Facebook, X (Twitter), LinkedIn and send by e-mail
+* choose the sharing buttons to display: Bluesky, Facebook, X (Twitter), LinkedIn, WhatsApp and Send by e-mail
 
 ### Display
 

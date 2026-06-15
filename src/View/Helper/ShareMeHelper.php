@@ -27,15 +27,18 @@ class ShareMeHelper extends AbstractHelper
     {
         // We use the module options
         $configuration = $this->module_settings->get('share_me_baby_configuration', array());
+        $block_heading = $configuration['block_heading'] ?? '';
+        $networks = $configuration['networks'] ?? [];
+        $twitter_handle = $configuration['twitter_handle'] ?? '';
 
         $view = $this->getView();
 
         return $view->partial('social-sharing-block/common/block-layouts/social-sharing-block', [
-            'block_heading'  => $configuration['block_heading'],
-            'networks'       => $configuration['networks'],
+            'block_heading'  => $block_heading,
+            'networks'       => $networks,
             'this_url'       => $view->serverUrl(true),
             'title'          => $view->headTitle()->renderTitle(),
-            'twitter_handle' => $configuration['twitter_handle'],
+            'twitter_handle' => $twitter_handle,
         ] );
 
     }

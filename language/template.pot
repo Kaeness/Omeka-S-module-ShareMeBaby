@@ -17,60 +17,66 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.4.3\n"
 
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:34
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:58
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:82
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:97
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:116
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:33
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:49
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:72
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:95
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:110
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:128
 msgid "Share on"
 msgstr ""
 
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:106
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:119
 msgid "Check this link: "
 msgstr ""
 
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:107
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:120
 msgid "Sharing this page: "
 msgstr ""
 
-#: src/Form/InstanceSettings.php:28
+#: src/Form/InstanceSettings.php:26
 msgid "Block heading"
 msgstr ""
 
-#: src/Form/InstanceSettings.php:29
+#: src/Form/InstanceSettings.php:27
 msgid "If empty, the heading will not be displayed"
 msgstr ""
 
-#: src/Form/InstanceSettings.php:36 src/Form/ConfigForm.php:44
+#: src/Form/InstanceSettings.php:34 src/Form/ConfigForm.php:44
 msgid "Enable sharing"
 msgstr ""
 
-#: src/Form/InstanceSettings.php:37 src/Form/ConfigForm.php:45
+#: src/Form/InstanceSettings.php:35 src/Form/ConfigForm.php:45
 msgid "Check box to display a button for sharing on the social network"
 msgstr ""
 
-#: src/Form/InstanceSettings.php:41 src/Form/ConfigForm.php:49
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:35
+#: src/Form/InstanceSettings.php:39 src/Form/ConfigForm.php:49
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:34
+msgid "Bluesky"
+msgstr ""
+
+#: src/Form/InstanceSettings.php:43 src/Form/ConfigForm.php:53
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:50
 msgid "Facebook"
 msgstr ""
 
-#: src/Form/InstanceSettings.php:45 src/Form/ConfigForm.php:53
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:59
+#: src/Form/InstanceSettings.php:47 src/Form/ConfigForm.php:57
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:73
 msgid "X (Twitter)"
 msgstr ""
 
-#: src/Form/InstanceSettings.php:49 src/Form/ConfigForm.php:57
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:83
+#: src/Form/InstanceSettings.php:51 src/Form/ConfigForm.php:61
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:96
 msgid "LinkedIn"
 msgstr ""
 
-#: src/Form/InstanceSettings.php:51 src/Form/ConfigForm.php:61
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:98
+#: src/Form/InstanceSettings.php:55 src/Form/ConfigForm.php:65
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:111
 msgid "WhatsApp"
 msgstr ""
 
-#: src/Form/InstanceSettings.php:55 src/Form/ConfigForm.php:65
-#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:117
+#: src/Form/InstanceSettings.php:59 src/Form/ConfigForm.php:69
+#: view/social-sharing-block/common/block-layouts/social-sharing-block.phtml:129
 msgid "Email"
 msgstr ""
 

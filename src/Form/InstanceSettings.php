@@ -35,6 +35,10 @@ class InstanceSettings extends Form
                 'info'  => 'Check box to display a button for sharing on the social network',  // @translate
                 'value_options' => [
                     [
+                        'value' => 'enable_bluesky',
+                        'label' => 'Bluesky',  // @translate
+                    ],
+                    [
                         'value' => 'enable_facebook',
                         'label' => 'Facebook',  // @translate
                     ],
